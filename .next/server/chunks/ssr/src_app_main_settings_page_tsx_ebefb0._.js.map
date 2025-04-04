@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/G/BlackCoffer/projects/next-project-management/src/app/main/settings/page.tsx"],"sourcesContent":["\"use client\"\r\nimport React, {useState} from 'react'\r\n\r\n\r\nfunction page() {\r\n  \r\n  return (\r\n    <>\r\n        <div className=\"h-screen bg-white m-6\">\r\n                    <MyAssignment />\r\n                </div>\r\n    </>\r\n     \r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;AAAA;;AAIA,SAAS;IAEP,qBACE;kBACI,cAAA,8OAAC;YAAI,WAAU;sBACH,cAAA,8OAAC;;;;;;;;;;;AAKrB;uCAEe"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

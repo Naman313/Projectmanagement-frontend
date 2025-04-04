@@ -41,7 +41,10 @@ export default function MyStuff() {
 
     return (
         <div className="h-screen bg-gray-50 m-6">
-            {userId ? <MyAssignment userId={userId} /> : <div className="text-center">User not found</div>}
+            {userId ? <MyAssignment 
+            
+            // userId={userId} 
+            /> : <div className="text-center">User not found</div>}
         </div>
     );
 }

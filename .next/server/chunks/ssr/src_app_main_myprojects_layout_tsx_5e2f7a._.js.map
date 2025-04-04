@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/G/BlackCoffer/projects/next-project-management/src/app/main/myprojects/layout.tsx"],"sourcesContent":["// import MyProjectdashboard from \"./MyProjectdashboard/page\";\r\n\r\nexport default function ProjectsLayout({ children }: { children: React.ReactNode }) {\r\n\r\n  return (\r\n    <>\r\n    <div className=\"min-h-screen bg-[#F8F7FA]\">{children}</div>\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,8DAA8D;;;;;;AAE/C,SAAS,eAAe,EAAE,QAAQ,EAAiC;IAEhF,qBACE;kBACA,cAAA,8OAAC;YAAI,WAAU;sBAA6B;;;;;;;AAGhD"}},
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

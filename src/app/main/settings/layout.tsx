@@ -27,12 +27,12 @@ export default function HeyLayout() {
 
         {/* Render `page.tsx` and pass props */}
         <Page 
-          isPersonalProfile={isPersonalProfile} 
-          setIsPersonalProfile={setIsPersonalProfile} 
-          isNotification={isNotification} 
-          setIsNotification={setIsNotification} 
-          isSecurity={isSecurity} 
-          setIsSecurity={setIsSecurity}
+          // isPersonalProfile={isPersonalProfile} 
+          // setIsPersonalProfile={setIsPersonalProfile} 
+          // isNotification={isNotification} 
+          // setIsNotification={setIsNotification} 
+          // isSecurity={isSecurity} 
+          // setIsSecurity={setIsSecurity}
         />
       </div>
     </div>

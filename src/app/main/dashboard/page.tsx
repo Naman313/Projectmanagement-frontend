@@ -17,7 +17,7 @@ interface DashboardPageProps {
   userName: string;
 }
 
-export default function DashboardPage({ userName = "Esther Howard" }: DashboardPageProps) {
+export default function DashboardPage() {
   const [isToast, setToast] = useState(false);
 
   const [isNewProjectOpen, setIsNewProjectOpen] = useState(false);

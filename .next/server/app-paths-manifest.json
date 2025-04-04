@@ -1,6 +1,20 @@
 {
-  "/auth/login/page": "app/auth/login/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/auth/forgot-password/page": "app/auth/forgot-password/page.js",
+  "/auth/reset-password/page": "app/auth/reset-password/page.js",
   "/auth/signup/page": "app/auth/signup/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/page": "app/page.js",
+  "/main/tracker/page": "app/main/tracker/page.js",
+  "/main/[id]/overview/page": "app/main/[id]/overview/page.js",
+  "/main/[id]/overview/todo/page": "app/main/[id]/overview/todo/page.js",
+  "/main/activity/page": "app/main/activity/page.js",
+  "/main/hey/page": "app/main/hey/page.js",
   "/main/dashboard/page": "app/main/dashboard/page.js",
-  "/page": "app/page.js"
+  "/main/my-stuff/page": "app/main/my-stuff/page.js",
+  "/main/myprojects/page": "app/main/myprojects/page.js",
+  "/main/pings/call/page": "app/main/pings/call/page.js",
+  "/main/pings/page": "app/main/pings/page.js",
+  "/main/settings/page": "app/main/settings/page.js"
 }

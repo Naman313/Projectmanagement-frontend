@@ -50,7 +50,10 @@ export default function MystuffLayout({ children }: { children: React.ReactNode 
       case "My Drafts":
         return <MyDrafts />;
       default:
-        return userId ? <MyAssignment userId={userId} /> : <div className="text-center">User not found</div>;
+        return userId ? <MyAssignment 
+        // userId={userId} 
+        /> 
+        : <div className="text-center">User not found</div>;
     }
   };
 

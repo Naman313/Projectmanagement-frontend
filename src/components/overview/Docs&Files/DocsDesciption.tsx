@@ -158,7 +158,7 @@ const DocsDescription= ({ isOpenDetail, onClose }: DetailProps) => {
                             />
                         </div> */}
                         <div className='flex flex-grow'>
-                        <TextareaBox notes={notice} setNotes={setNotice}/>
+                        <TextareaBox fromTodo={false} notes={notice} setNotes={setNotice}/>
                         </div>
                     </div>
                     <div className="space-y-4">

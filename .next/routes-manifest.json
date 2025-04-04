@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/main/[id]/overview",
+      "regex": "^/main/([^/]+?)/overview(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/main/(?<nxtPid>[^/]+?)/overview(?:/)?$"
+    },
+    {
+      "page": "/main/[id]/overview/todo",
+      "regex": "^/main/([^/]+?)/overview/todo(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/main/(?<nxtPid>[^/]+?)/overview/todo(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/auth/forgot-password",
+      "regex": "^/auth/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/reset-password",
+      "regex": "^/auth/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/auth/signup",
+      "regex": "^/auth/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/signup(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/main/activity",
+      "regex": "^/main/activity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/activity(?:/)?$"
+    },
+    {
+      "page": "/main/dashboard",
+      "regex": "^/main/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/dashboard(?:/)?$"
+    },
+    {
+      "page": "/main/hey",
+      "regex": "^/main/hey(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/hey(?:/)?$"
+    },
+    {
+      "page": "/main/my-stuff",
+      "regex": "^/main/my\\-stuff(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/my\\-stuff(?:/)?$"
+    },
+    {
+      "page": "/main/myprojects",
+      "regex": "^/main/myprojects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/myprojects(?:/)?$"
+    },
+    {
+      "page": "/main/pings",
+      "regex": "^/main/pings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/pings(?:/)?$"
+    },
+    {
+      "page": "/main/pings/call",
+      "regex": "^/main/pings/call(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/pings/call(?:/)?$"
+    },
+    {
+      "page": "/main/settings",
+      "regex": "^/main/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/settings(?:/)?$"
+    },
+    {
+      "page": "/main/tracker",
+      "regex": "^/main/tracker(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/main/tracker(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

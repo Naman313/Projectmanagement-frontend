@@ -1,3 +1,5 @@
+'use client'
+
 import React, { MouseEventHandler } from "react";
 import { Download } from "lucide-react";
 import Image from "next/image";

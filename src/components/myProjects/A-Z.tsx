@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from "react";
 import { Download } from "lucide-react";
 import Image from "next/image";
@@ -19,7 +20,8 @@ const ProjectList = ({query}:PropValue) => {
   const [projectData, setProjectData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [isNewProjectOpen, setIsNewProjectOpen] = useState(false);
-  const token = localStorage.getItem("token"); // Replace with the actual token
+  const token = localStorage.getItem("token"); 
+  // Replace with the actual token
   // const [pinned, setPinned] = useState<boolean>(false);
   const { mutate } = useSWR([`${process.env.NEXT_PUBLIC_API_URL}/projects/my-projects`, localStorage.getItem("token")]);
   const handleProjectCreated = async () => {

@@ -21,11 +21,17 @@ const MyProjects = () => {
     setToast(false);
   }
   const router = useRouter();
-  useEffect(()=>{
-    const storedtoken = localStorage.getItem("token"); 
-    setToken(storedtoken);
+  // useEffect(()=>{
+  //   const storedtoken = localStorage.getItem("token"); 
+  //   setToken(storedtoken);
 
-  },[])
+  // },[])
+  useEffect(() => {
+    if (typeof window !== "undefined") { // Ensures code runs only in the browser
+      const storedToken = localStorage.getItem("token"); 
+      setToken(storedToken);
+    }
+  }, []);
   
   const fetcher = async ([url, token]: [string, string | null]) => {
     if (!token) return [];

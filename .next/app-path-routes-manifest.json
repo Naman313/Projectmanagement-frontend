@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/auth/forgot-password/page": "/auth/forgot-password",
+  "/auth/reset-password/page": "/auth/reset-password",
+  "/auth/login/page": "/auth/login",
+  "/auth/signup/page": "/auth/signup",
+  "/page": "/",
+  "/main/tracker/page": "/main/tracker",
+  "/main/[id]/overview/page": "/main/[id]/overview",
+  "/main/activity/page": "/main/activity",
+  "/main/hey/page": "/main/hey",
+  "/main/dashboard/page": "/main/dashboard",
+  "/main/my-stuff/page": "/main/my-stuff",
+  "/main/[id]/overview/todo/page": "/main/[id]/overview/todo",
+  "/main/myprojects/page": "/main/myprojects",
+  "/main/pings/call/page": "/main/pings/call",
+  "/main/pings/page": "/main/pings",
+  "/main/settings/page": "/main/settings"
+}
